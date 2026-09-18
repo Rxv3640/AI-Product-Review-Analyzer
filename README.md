@@ -7,15 +7,29 @@
 
 - Example Output:
 
-Sentiment: Positive
-Confidence: 91%
+    Sentiment: Positive
+    Confidence: 91%
 
-Topics:
-• Product Quality
-• Shipping
+    Topics:
+    • Product Quality
+    • Shipping
 
-Summary:
-The customer is very satisfied with the headphones'
-sound quality and battery life but was unhappy with
-the slow shipping.
+    Summary:
+    The customer is very satisfied with the headphones'
+    sound quality and battery life but was unhappy with
+    the slow shipping.
 
+- Phases:
+    - Testing pretrained sentiment model using pipeline() API
+      Output:         
+
+        [{'label': 'POSITIVE', 'score': 0.9991727471351624}]
+        [{'label': 'POSITIVE', 'score': 0.9938104748725891}]
+        [{'label': 'POSITIVE', 'score': 0.9997978806495667}]
+        [{'label': 'POSITIVE', 'score': 0.9998179078102112}]
+        [{'label': 'POSITIVE', 'score': 0.9997859597206116}]
+
+      Explanation: The output after training the pipeline() API sentiment model shows that for each of the 5 reviews,
+                   each review is classified as having a POSITIVE sentiment and the model was able to classify each review                        with a 99% accuracy.
+
+    
