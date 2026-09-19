@@ -20,7 +20,8 @@
     the slow shipping.
 
 - Phases:
-    - Testing pretrained sentiment model using pipeline() API
+
+- Testing pretrained sentiment model using pipeline() API
       Output:         
 
         [{'label': 'POSITIVE', 'score': 0.9991727471351624}]
@@ -31,7 +32,7 @@
 
       Explanation: The output after training the pipeline() API sentiment model shows that for each of the 5 reviews,
                    each review is classified as having a POSITIVE sentiment and the model was able to classify each review                        with a 99% accuracy.
-      - Fine-Tuning
+  - Fine-Tuning
         Output:
 
         TrainOutput(global_step=3, training_loss=0.4965078830718994, metrics={'train_runtime': 31.3992,
@@ -39,7 +40,7 @@
 
          Explanation: The output after training the Trainer model shows the evaluation after training the Trainer model                           over 3 epochs.
 
-      - Evaluation
+  - Evaluation
         Output:
 
         {'accuracy': 0.8, 'f1': 0.8888888888888888}
