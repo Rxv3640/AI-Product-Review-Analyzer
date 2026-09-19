@@ -22,6 +22,7 @@
 - Phases:
 
 - Testing pretrained sentiment model using pipeline() API
+
       Output:         
 
         [{'label': 'POSITIVE', 'score': 0.9991727471351624}]
@@ -32,7 +33,7 @@
 
       Explanation: The output after training the pipeline() API sentiment model shows that for each of the 5 reviews,
                    each review is classified as having a POSITIVE sentiment and the model was able to classify each review                        with a 99% accuracy.
-  - Fine-Tuning
+- Fine-Tuning
  
         Output:
 
@@ -41,7 +42,7 @@
 
          Explanation: The output after training the Trainer model shows the evaluation after training the Trainer model                           over 3 epochs.
 
-  - Evaluation
+- Evaluation
   
         Output:
 
