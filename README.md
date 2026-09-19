@@ -31,5 +31,19 @@
 
       Explanation: The output after training the pipeline() API sentiment model shows that for each of the 5 reviews,
                    each review is classified as having a POSITIVE sentiment and the model was able to classify each review                        with a 99% accuracy.
+      - Fine-Tuning
+        Output:
+
+        TrainOutput(global_step=3, training_loss=0.4965078830718994, metrics={'train_runtime': 31.3992,
+        'train_samples_per_second': 0.478, 'train_steps_per_second': 0.096, 'total_flos': 745129117440.0, 'train_loss':              0.4965078830718994, 'epoch': 3.0})
+
+         Explanation: The output after training the Trainer model shows the evaluation after training the Trainer model                           over 3 epochs.
+
+      - Evaluation
+        Output:
+
+        {'accuracy': 0.8, 'f1': 0.8888888888888888}
+
+        Explanation: The output shows the accuracy and f1-score of the Trainer model after predicting sentiment from the                         test dataset.
 
     
